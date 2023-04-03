@@ -1,0 +1,214 @@
+body{
+  background-color: #ffffd2; 
+  }
+  h1{
+  color:#aa96da;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  }
+  .sem{
+  color: #a8d8ea;
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  }
+  .my{
+  color:#aa96da;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  }
+  .zagolov{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  }
+  .tort{
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto; 
+  /*margin-left: 700px; */
+  }
+  .tortdop{
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto; 
+  margin-top: 300px;
+  /*margin-left: 700px; */
+  }
+  .plan{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  margin: 20px;
+  padding: 40px;
+  }
+  .spisok{
+  margin-top: 150px;
+  background-color:none;
+  color: #f1ebeb;
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+  font-size: 15px;
+  }
+  .name{
+  color:#52616b;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  }
+  .cena{
+  margin-top: 100px;
+  color:#52616b;
+  font-family: 'Montserrat', sans-serif;
+  }
+  del {
+  background-color: #fbb;
+  font-size: 30px;
+  }
+  ins {
+  transform: rotate(-7deg);
+  font-size: 30px;
+  text-decoration: none;
+  display:inline-block;
+  background-color: #fbb;
+  transform: rotate(-7deg);
+  }
+  button{
+  background-color: #aa96da;
+  color: #f1f1ac;
+  font-size: 30px;
+  border-radius: 10px;
+  margin-left: 50px;
+  }
+  #myVideo{
+  width: 100%;
+  }
+  .mail{
+  display: flex;
+  flex-wrap: wrap;  
+  }
+  /*переворот картинки*/
+  body {
+  margin: 0;
+  }
+  img {
+  width: 100%;
+  border-radius: 15%;
+  }
+  /* Здесь обязательно надо добавить высоту и ширину. А последнее значение - для эффекта, как в 3D*/
+  .flip-card {
+  /* background-color: rgb(58, 51, 52);  */
+  width: 50%;
+  height: 200px;
+  border: 1px solid none;
+  perspective: 1000px;  
+  border-radius: 20%;
+  /* margin-top: 170px;
+  */
+  }
+  /* Этот контейнер нужен для позиционирования переда и обратной стороны фото */
+  .flip-card-inner {
+  position: relative;
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+  }
+  /* Поворот горизонтальный */
+  .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  }
+  /* Позиционирования переда и обратной стороны фото на телефоне */
+  .flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  }
+  /* Стиль переда и обратной стороны фото */
+  .flip-card-back {
+  background-color:  #ffffd2; 
+  color: rgb(192, 44, 44);
+  transform: rotateY(180deg);
+  }
+  @media all and (max-width: 1024px) /*средний размер телефон */
+{ .plan,.zagolov{
+    flex-wrap: wrap;
+  
+}
+  .tort,.tortdop{
+    flex-wrap: wrap;
+  margin-left:20%;
+}
+
+}
+.did{display: flex;
+      justify-content: start;
+  flex-direction: column;
+  margin-top:15%;
+}
+ .di {
+            text-align: center;
+            font-size: 12px;
+        
+            text-decoration: none;
+            color: #070707;
+          }
+  .Anastaisha{
+            text-align: center;
+            font-size: 12px;
+        
+            text-decoration: none;
+            color: #070707;
+          }
+ 
+.Anas{display:flex; 
+justify-content: center;}
+
+@media all and (max-width: 500px) /*маленький размер телефон */
+{ 
+  .zagolov{
+     margin-left:20px;
+  }
+    .tort,.tortdop{
+   
+  margin-left:30px;
+}
+  .tortdop{margin-top:-10px}
+  
+    .name{
+   
+      font-size: 35px;
+      display: flex;
+      justify-content: center;
+      }
+      button{
+        
+        font-size: 200%;
+      }
+      .flip-card {
+        /* background-color: rgb(58, 51, 52);  */
+        width: 90%;
+        height: 500px;
+        margin-top: 50px;
+        margin-left: 20px;
+                }
+                .flip-card-inner {
+                  position: relative;
+                  width: 90%;
+                  height: 50%;
+                  text-align: center;
+                  transition: transform 0.3s;
+                  transform-style: preserve-3d;
+                  
+                  }
+                  
+}
